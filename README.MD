@@ -1,15 +1,15 @@
-Custom Select Field supporting parsing of a dataSource
+Cloud CMS datasource interceptor
 ==================================================
 
-To use this field, you must deploy it to your platform and then include it into your forms.
-The field type is "custom-datasource".
+Tap into ajax json calls looking for a particular dataSource url and reshape the data to be
+dataSource compatible.
 
 ## Installation
 
 Deploy this module to your Cloud CMS Platform (Platform Settings > Modules)
 
-    ID: custom-datasource-field
-    TITLE: Custom DataSource Field
+    ID: datasource-interceptor
+    TITLE: Custom DataSource Interceptor
     Source Type: GitHub
-    Source URL: https://github.com/harrymoore/cloudcms-field-custom-datasource
+    Source URL: https://github.com/harrymoore/cloudcms-datasource-interceptor
     Path: 
